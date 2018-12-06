@@ -1,6 +1,12 @@
 # DPT Stuff
 Files for Sony's DPT-RP1
 
+## Wiping Data
+
+You should probably skip this at first, but if flashing system doesn't fix the problem, wipe data and then flash system again.
+
+To wipe data, boot into diag mode and run `/usr/local/bin/factory_reset.sh`. That should wipe data as well as mmcblk0p16, which means you'll have to copy the img file(s) back onto the device.
+
 ## Restoring System
 
 Download system.img from the 1.4.01.16100 Stock folder. Check that its MD5 is `5081ec24954714373229a7c76154509a`.
